@@ -38,7 +38,7 @@ species-interactions-community-ecology
 skills-doing-communicating-science
 grades---grading-scale
 readings-additional-readings
-readings---assigned-textbook-materials
+textbook
 readme-assigned-readings
 digital-access-to-hillis-et-al-2020
 acheive-1

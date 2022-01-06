@@ -1,4 +1,4 @@
-# Readings - Assigned textbook materials
+# Readings:  Assigned textbook materials {#textbook}
 
 This course will be structured around focal chapters and/or sections in Life: The Science of Biology, 12th edition by Hillis et al (2020). 
 

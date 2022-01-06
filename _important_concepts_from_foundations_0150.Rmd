@@ -1,4 +1,4 @@
-#  Foundations 1 - things to know
+#  Foundations 1 - things to know {#f1}
 
 The most important concepts from the first semester of Foundations of Biology will be reviewed at least briefly, and in some cases this material will be covered in-depth.  Below is a summary of key things from the textbook covered in Foundations 1 relevant to this course.
 

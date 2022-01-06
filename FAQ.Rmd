@@ -1,4 +1,4 @@
-# FAQ
+# FAQ {#faq}
 
 Welcome to Foundation 2 with Dr. Brouwer!  This FAQ supplements the syllabus and answers frequently asked questions.  Let me know ( nlb24@pitt.edu ) if you have any additional questions.  
 

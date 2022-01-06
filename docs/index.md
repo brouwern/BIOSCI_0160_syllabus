@@ -23,9 +23,6 @@ Some policies related to exams and assignments may not be finalized until the fi
 
 
 
-```r
-bookdown::serve_book()
-```
 
 
 
