@@ -1,4 +1,4 @@
-# How to succeed in Foundations of Biology 2
+# How to succeed in Foundations of Biology 2 {#success}
 
 
 1. **Have confidence** – you can learn the material!  

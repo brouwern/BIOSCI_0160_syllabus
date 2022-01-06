@@ -6,7 +6,7 @@ course-communication---canvas-messages-email
 course-structure
 weekly-course-components
 assessments
-how-to-succeed-in-foundations-of-biology-2
+success
 academic-integrity
 acheive
 buffer-points-on-exams
