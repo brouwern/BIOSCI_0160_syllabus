@@ -1,7 +1,4 @@
-about
-usage
-render-book
-preview-book
+welcome
 course-units
 material-in-the-course-is-cumulative
 communication---from-me-to-you
