@@ -1,0 +1,11 @@
+# Course communication - Canvas messages & Email
+
+I you can contact me via email at nlb24@pitt.edu or via Canvas.
+
+Please put "Foundations 2:..." as the subject, with an informative bit of information as the "...". e.g. "Foundations 2: Canvas assignment not allowing multiple attempts". There's no need to provide your PeopleSoft number.
+
+I try to answer all emails received on _weekdays_ within 24-36 hrs.  Emails received on the weekend will be answered Monday. 
+
+Please consult the syllabus before asking questions about course policies and the schedule, and refer to relevant information such as web links, pages or dates. Screengrabs are super helpful. If the entire answer to your question can be found in the syllabus I will likely respond by saying "This is in the syllabus, Cheers, Dr. B."
+
+Questions relevant to the whole class may be re-posted, with identifying details removed.

@@ -1,0 +1,7 @@
+# Buffer points on exams
+
+Exams, the final, and exam rematches all have **buffer points**.  
+
+This is how this works: Let's say exams this semester are worth 40 points.  Each exam will have 41 questions, each worth 1 points.  The maximum score on an exam will be 40 points, so you have 41 chances to earn up to 40 points.
+
+(I may sometimes refer to these as "buffer questions"; no particular question, however, is designated as the buffer.)

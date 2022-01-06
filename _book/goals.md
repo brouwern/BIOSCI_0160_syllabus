@@ -1,0 +1,49 @@
+# Goals of Foundations 2
+
+The goals of Foundations II is to expand your understanding of key biological concepts and build skills essential to your success as a practitioner and consumer of science.
+
+**There is a strong emphasis in this course on application** - there is MUCH more to this class than memorizing vocab!
+
+ 
+## Concepts: From Nucleic acids to the Biosphere
+
+Key biology concepts covered this semester will be
+
+1. DNA structure & function
+1. Transcription & translation
+1. Genomics & DNA cloning
+1. [Phylogenetic trees](https://en.wikipedia.org/wiki/Phylogenetic_tree)
+1. Evolution & speciation
+1. Ecology
+
+Biology is the study of life in all its forms and at all scales, from the interactions of biological macromolecules like nucleic acids to the functioning of the entire biosphere. Foundations II will provide you with a grounding in the major biological concepts related to the molecular basis of genetics, molecular biology, the evolution of life, and ecological interactions.
+
+ 
+
+### Molecular genetics
+
+We will begin the semester with an introduction to the molecular basis of genetics and heredity, focusing on how the information in DNA is stored, copied, transmitted, and used by organisms through the processes of transcription and translation.
+
+### Gene regulation & genomics
+
+During the first units we will think mostly in terms of single genes.   Later we will widen our scope to include multiple genes in order to examine gene regulation, genomics and [epigenetics](https://en.wikipedia.org/wiki/Epigenetics) We'll also discuss how molecular biologists conduct experiments and the tools they use to manipulate genes and proteins.
+
+### Population biology: natural selection, speciation, phylogenetics & ecology
+
+Throughout the course we will emphasize the evolutionary background of the topics we discuss. During the second half of the course we will specifically focus on the biology of populations and the dynamics of natural selection, the origin of species (speciation), the evolutionary relationships among species ([phylogenetics](https://en.wikipedia.org/wiki/Phylogenetics)), and the process of population growth and regulation which are key to understanding evolution (population ecology).
+
+### Species interactions & Community ecology
+
+We will finish the semester learning about species interactions, such as predators versus their prey, and the structure of communities made up of multiple interacting species.
+
+
+## Skills: Doing & Communicating Science
+
+Foundations 2 will develop your skills as a critical consumer and practitioner of science. By the end of the course you should not only understand the conceptual material presented in the book but also be able to critically approach new scientific material such as scientific talks and journal articles. We will practice assessing scientific results, understanding figures, and presenting and analyzing data.  Throughout the course we will therefore discuss
+
+* How science is conducted & communicated
+* Application of the scientific method
+* How experiments & observational studies are conducted
+* Understanding scientific figures
+* Data analysis & Statistics
+* Scientific inference

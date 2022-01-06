@@ -1,0 +1,11 @@
+# Lecture slides
+
+Lecture slides will usually be provided as Google Slides for each lecture, though at times it will be necessary for you to just take notes without access to the slides.  
+
+Google slides can be converted to PDF and PowerPoint. 
+
+Slides I release will always be a subset of the slides I actually use and it is your responsibility to take notes during each lecture.
+
+<!-- When released? -->
+
+

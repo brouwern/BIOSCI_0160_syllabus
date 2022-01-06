@@ -1,0 +1,65 @@
+# Recitations & Recitation Assignments
+
+All recitations are Friday.  
+
+During recitations we will do practice exam, exam "re-matches", and other activities to develop skills working with biological data and concepts.
+
+Recitations will be recorded, but the quality may vary because of where I am standing.
+
+If you miss a recitation you will _not_ be able to make up the activities done in-class.  Your lowest practice exam, lowest exam rematch, and lowest score on a non-exam related recitation sessions will be dropped.  You are highly encouraged to watch the videos so that you can see what covered.
+
+
+## The 3 components of recitation
+
+Recitation activities will generally consist of 3 components spread out over approximately a week.   For a summary of when things will be released and due see the **Weekly Schedule Summary**.  
+
+### 1) Pre-recitation assignment
+
+1st, most weeks a Pre-Recitation Homework exercise will be released.  This assignment will be due Tuesday morning at 8:30 before the first recitation meets. 
+
+To complete pre-recitation homework, students are encouraged to work together, discuss the homework with teaching assistants, ask questions during office hours, or ask questions on a forum created for each assignment. 
+
+<!-- Questions on this Pre-recitation Homework are designed to prepare you for the upcoming recitation and you will be able to earn up to 50% of the points for an assignment just by providing an answer to each question.  These assignments may be associated with readings, short videos, or other materials. -->
+
+ 
+### 2) Recitation meetings and in-class activity
+
+2nd, during  recitation meetings, we will do a problem-solving activities such as 
+
+1. Practice exams and discussion
+1. Exam rematches
+1. Other activities
+
+You will usually submit a short assignment via Canvas by the end of the recitation.
+
+If important information was discussed in one recitation that was not discussed in another, we'll send out the relevant notes from the UTA. 
+
+### 3) Post-recitation assignment
+
+Third,   After most recitations, a post-Recitation Homework will be released  
+
+<!-- This will be due the next Monday night. -->
+
+When there is an upcoming test post-recitation assignments may be a practice-test assignment.
+
+ 
+
+## Recitation assignment grading policies
+
+No late pre- or post-recitation assignments will be accepted. 
+
+Your lowest 1 pre-recitation scores will be dropped. 
+
+Similarly, your lowest 1 post-recitation scores will be dropped, regardless if they are the same recitation or different than your .lowest pre-recitation scores. 
+
+These calculations will not be done until after finals. 
+
+
+## What will we do during recitation?
+Recitation material will often be based on a case study, such as work conducted by a Pitt professor. 
+
+Concepts from these case studies and skills developed during recitation exercises will be used on the tests, though particular details will not. 
+
+For example, I usually do 1 or more recitations on an mRNA-binding protein called Larp1 studied by Pitt professor Andrea Berman which binds near the 5'-GTP cap added to eukaryotic mRNAs after transcription. 
+
+I won't expect you to remember details like exactly what Larp1 does, how big it is, etc., but I will expect you to know about mRNA binding proteins, where they can bind to mRNA, and how they participate in the regulation of translation.

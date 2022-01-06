@@ -1,0 +1,9 @@
+<!-- # "Open note" test-taking policy -->
+
+<!-- Tests are nominally "open note", but you should prepare for them as if they are closed-note.  You only have 40 minutes and will not have much time to look up answers. -->
+<!-- For this course "open note" means you can use your notes, textbook, and static websites such as Wikipedia.   -->
+<!-- You may also use a calculator or spreadsheet to do calculations. -->
+<!-- All slides and videos related to a unit will be closed during the testing window. -->
+<!-- While taking a test or during the period when a test is open students must not communicate with other students or any other person in any way, either verbally or digitally.   This includes text, email and online forums. -->
+<!-- Communication with other people during an exam in any way is an academic integrity violation. -->
+<!-- Taking screen grabs or pictures of a test, even for personal use, is an academic integrity violation. -->

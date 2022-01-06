@@ -1,0 +1,34 @@
+# Rounding numeric
+
+## Entering numeric questions on tests (and assignments)
+
+Test questions and assignments will frequently require numeric answers.
+
+The keys for these questions will have a buffer to account for reasonable variation in rounding. 
+
+For example, if the answer is 50%, grading will be set so that answers from 49% to 51% will be accepted.
+
+ 
+
+## Rounding like a biologist
+
+Because chemistry and physics are super precise sciences, chemists and physics profs get really hung up on rounding; biologists generally don't unless its really necessary.
+
+For rounding and reporting answers I recommend these rule of thumb:
+
+1. Your final answer doesn't usually need to be than 1 or 2 digits more precise than your data.  So if I give you frequencies of 0.4 and 0.6 for a Hardy-Weinberg problem, your final answer can be rounded to the hundredths or thousandths (e.g. 0.411, 0.62).
+1. If the final answer is >0, round to 2 digits past the decimal place, e.g. round 1.519 to 1.52, and leave 1.49 as 1.49 (don't up round to 1.5).
+1. If the final answer is <0, round to 2 digits past the zeros, e.g., round 0.00148 to 0.0015 and leave 0.0014 as 0.0014 (don't round to 0.001).
+1. To prevent rounding errors retain 2 more digits than needed while doing your work.
+
+These aren't hard and fast rules; luckily I don't think I've ever had a problem on a numeric question that ultimately was the result of variation in approaches to rounding.
+
+When making the key to a test I will usually try to work out the math with more than one approach to rounding to account for potential variation. 
+
+For example, I'll first do the calculations in a spreadsheet and do the rounding at the end. 
+
+I'll then redo the math rounding any intermediary steps.  I'll then set a buffer that accommodates reasonable variation in the answer. 
+
+I also go back and specifically re-check numeric questions after the test.
+
+<!-- If you believe you entered a correct numeric answer but the buffer was too narrow you can submit a test-inquiry form as detailed elsewhere in the syllabus. -->

@@ -1,0 +1,777 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={A Minimal Book Example},
+  pdfauthor={John Doe},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{A Minimal Book Example}
+\author{John Doe}
+\date{2022-01-06}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports; for example, a math equation \(a^2 + b^2 = c^2\).
+
+\hypertarget{usage}{%
+\section{Usage}\label{usage}}
+
+Each \textbf{bookdown} chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter \emph{must} start with a first-level heading: \texttt{\#\ A\ good\ chapter}, and can contain one (and only one) first-level heading.
+
+Use second-level and higher headings within chapters like: \texttt{\#\#\ A\ short\ section} or \texttt{\#\#\#\ An\ even\ shorter\ section}.
+
+The \texttt{index.Rmd} file is required, and is also your first book chapter. It will be the homepage when you render the book.
+
+\hypertarget{render-book}{%
+\section{Render book}\label{render-book}}
+
+You can render the HTML version of this example book without changing anything:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Find the \textbf{Build} pane in the RStudio IDE, and
+\item
+  Click on \textbf{Build Book}, then select your output format, or select ``All formats'' if you'd like to use multiple formats from the same book source files.
+\end{enumerate}
+
+Or build the book from the R console:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{render\_book}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+To render this example to PDF as a \texttt{bookdown::pdf\_book}, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+
+\hypertarget{preview-book}{%
+\section{Preview book}\label{preview-book}}
+
+As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in ``Preview book'', or from the R console:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{bookdown}\SpecialCharTok{::}\FunctionTok{serve\_book}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{course-units}{%
+\chapter{Course Units}\label{course-units}}
+
+The course is divided into 3 Units Each part will have 2 Parts
+There will be 1 exam for each Unit of the course.
+
+The first 3 part will be focused on
+
+\begin{itemize}
+\tightlist
+\item
+  molecular genetics
+\item
+  mutation
+\item
+  gene regulation
+\item
+  genomics
+\item
+  biotechnology / lab techniques
+\end{itemize}
+
+The last 3 units will be focused on
+
+\begin{itemize}
+\tightlist
+\item
+  phylogenetics
+\item
+  evolution
+\item
+  ecology
+\end{itemize}
+
+Each unit will have approximately 8 lectures.
+
+\hypertarget{material-in-the-course-is-cumulative}{%
+\chapter{Material in the course is cumulative!}\label{material-in-the-course-is-cumulative}}
+
+Content within the course is cumulative, with each exam referring back to concepts from previous material!
+
+This integration will occur within the lectures also so you shouldn't be surprised by the connections being made.
+
+The three most common recurring themes will be:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Data analysis methods (scatterplots, histograms etc.)
+\item
+  Mutations
+\item
+  Phylogenetic trees.
+\end{enumerate}
+
+Practice tests and problems sets will be available so you will be able to see how the content in different units relates.
+
+\hypertarget{communication---from-me-to-you}{%
+\chapter{Communication - from me to you}\label{communication---from-me-to-you}}
+
+\textbf{Messages via Canvas will be used to regularly communicate key information for the course.}
+
+After the first week, I will generally send out a single message via Canvas on Friday evening after the last recitation. This will provide information about the relevant readings for the upcoming lectures, assignments, reminders about exams, etc.
+
+Additional messages on time-sensitive issues (e.g.~class cancellation due to bad weather) or reminders about upcoming exams will also be released.
+
+Please set your Canvas setting so that all Canvas messages are forwarded to your Pitt email. If you use another email service as your primary email (eg GMail) please set your Pitt email to forward there.
+For info on forwarding your Pitt email to your personal account follow this {[}link{]}(\url{https://bit.ly/2Riz7dx} : \url{https://bit.ly/2Riz7dx}
+
+I recommend adjusting your Canvas settings to what works best for you regarding the frequency of messages. A daily digest of Canvas messages is usually the best so you aren't constantly pinged by messages throughout the day.
+
+All elements of the course will be scheduled to be released on specific days. Check the course calendar for upcoming due dates.
+
+\hypertarget{course-communication---canvas-messages-email}{%
+\chapter{Course communication - Canvas messages \& Email}\label{course-communication---canvas-messages-email}}
+
+I you can contact me via email at \href{mailto:nlb24@pitt.edu}{\nolinkurl{nlb24@pitt.edu}} or via Canvas.
+
+Please put ``Foundations 2:\ldots{}'' as the subject, with an informative bit of information as the ``\ldots{}''. e.g.~``Foundations 2: Canvas assignment not allowing multiple attempts''. There's no need to provide your PeopleSoft number.
+
+I try to answer all emails received on \emph{weekdays} within 24-36 hrs. Emails received on the weekend will be answered Monday.
+
+Please consult the syllabus before asking questions about course policies and the schedule, and refer to relevant information such as web links, pages or dates. Screengrabs are super helpful. If the entire answer to your question can be found in the syllabus I will likely respond by saying ``This is in the syllabus, Cheers, Dr.~B.''
+
+Questions relevant to the whole class may be re-posted, with identifying details removed.
+
+\hypertarget{course-structure}{%
+\chapter{Course structure}\label{course-structure}}
+
+The following sections outline key elements of the course.
+
+Further details will be provided later in the syllabus.
+
+\hypertarget{weekly-course-components}{%
+\section{Weekly Course Components}\label{weekly-course-components}}
+
+Foundations of Biology 2 is an in-person course. There are 4 main forms of delivering material and interaction:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Lectures}: In-person, Tuesdays \& Thursdays
+\item
+  \textbf{Recitation}: Fridays.
+\item
+  \textbf{Office Hours} with Dr.~Brouwer throughout the week.
+\item
+  \textbf{Undergraduate Teaching Assistant (UTA) office hours} throughout the week.
+\end{itemize}
+
+\hypertarget{assessments}{%
+\section{Assessments}\label{assessments}}
+
+The primary form of assessment in the course will be 3 ``mini-tests'', each covering \textasciitilde8 lectures of material
+Approximately 80\% of your grade will be based on these tests.
+
+Other primary forms of assessment and practice include
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Assignments}
+\item
+  \textbf{Practice tests} taken during recitation
+\item
+  \textbf{Exam rematches} taken during recitation
+\item
+  Other recitation activities to build skill and comprehensions
+\item
+  Numerous short quizzes before and after lecture to build vocab and test comprehension
+\end{itemize}
+
+As detailed elsewhere in the syllabus a portion of each of these individuals components of your grade will be dropped.
+
+Sometimes assignments or questions will be marked as being based partially or entirely scored for participation. These assignments ARE required - ``for participation'' does NOT mean optional.
+
+Occasionally, fully optional assignments worth 0 points will be released - these will be clearly marked as worth 0 points and for practice only.
+
+The syllabus will take you step-by-step through all the policies related to these elements of the course.
+
+\hypertarget{how-to-succeed-in-foundations-of-biology-2}{%
+\chapter{How to succeed in Foundations of Biology 2}\label{how-to-succeed-in-foundations-of-biology-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Have confidence} -- you can learn the material!\\
+\item
+  \textbf{Read the textbook pages} that will be covered before class.
+\item
+  \textbf{Read slowly and thoroughly, but taking notes isn't necessary}. Familiarize yourself with the vocabulary terms and look up unfamiliar words.
+\item
+  \textbf{Examine all indicated figures and read the figure captions}. Analysis of the information in figures plays a HUGE part in assignments and tests!
+\item
+  \textbf{Take notes in class}, and review them at least briefly within a few days. I recommend taking notes by hand with pen and paper. If possible, print out the slides and fill in key information.
+\item
+  \textbf{Fill in any unclear sections in your notes} with information from the book, other suggested study resources, information from the discussion boards or office hours, etc.
+\item
+  \textbf{Study with a partner or small study group}, using Zoom as necessary.
+\item
+  \textbf{Regularly attend office hours} with me or the UTAs (or both!), even if it's just to listen to what other people are asking.
+\item
+  \textbf{Try not to study for long, uninterrupted periods of time without a significant break.} Cramming results in - at best - short term retention of material. Two half-hour or 45-minute study sessions are better than one marathon 1-2 hour session.
+\item
+  \textbf{Ask for help when necessary - before you fall behind}. Go to office hours as often as necessary. The UTAs and I are here to help!
+\end{enumerate}
+
+\hypertarget{academic-integrity}{%
+\chapter{Academic integrity}\label{academic-integrity}}
+
+Dr.~Brouwer, the Bio Sci department, and the University all take academic integrity very seriously. Cheating includes \textbf{any} form of plagiarism, including copying other students' work or using other resources without proper attribution.
+
+If you are caught cheating on a graded assignment, you will receive a zero on the assignment.
+
+If you are caught cheating on an exam, you will receive a zero on the exam, an F in the course, and an Academic Integrity Violation Report will be filed.
+
+Materials made available to you in this class are my intellectual property. They are for your private use only. Posting or sharing my materials (lecture notes, slides, quizzes, homework, exams, recitation assignments, etc.) to any website or with any student not currently enrolled in this course, without my express written permission, is a violation of the academic integrity code. I have accounts on these sites and monitor them.
+
+Below is the University's Policy on Academic Integrity:
+
+\begin{quote}
+``Students in this course are expected to comply with the University of Pittsburgh School of Arts \& Sciences Academic Integrity Code located at www.as.pitt.edu/faculty/policy/integrity.html. Any student suspected of failing to meet the student obligations of the code during the semester will be required to participate in the procedures for adjudication, initiated at the instructor level. This may include, but is not limited to, confiscation of the assignment of any individual suspected of violating the code. A minimum sanction of a zero score for the assignment will be imposed. Violation of the Academic Integrity Code requires the instructor to submit an Academic Integrity Violation Report to the Dean.''
+\end{quote}
+
+\hypertarget{acheive}{%
+\chapter{Acheive}\label{acheive}}
+
+If you are accessing the textbook online through the information sent to you by the bookstore or purchased a new copy of the textbook you will have access to the publisher's online materials, called Achieve. (Note that there is an older service called LaunchPad which we no longer use).
+
+I do NOT assign materials from Achieve but will make them available for relevant chapters. You may find them useful, but I cannot guarantee their relevance to the course and will not answer questions related to them.
+
+If you use Achieve I recommend talking to the UTAs about which questions are most similar to what will appear on the tests.
+
+Achieve can be accessed from within Canvas using the ``Macmillan Learning'' link on the menu to the left.
+
+\hypertarget{buffer-points-on-exams}{%
+\chapter{Buffer points on exams}\label{buffer-points-on-exams}}
+
+Exams, the final, and exam rematches all have \textbf{buffer points}.
+
+This is how this works: Let's say exams this semester are worth 40 points. Each exam will have 41 questions, each worth 1 points. The maximum score on an exam will be 40 points, so you have 41 chances to earn up to 40 points.
+
+(I may sometimes refer to these as ``buffer questions''; no particular question, however, is designated as the buffer.)
+
+\hypertarget{course-communication-university-email-policy}{%
+\chapter{Course Communication: University email policy}\label{course-communication-university-email-policy}}
+
+Each student is issued a University e-mail address (\href{mailto:username@pitt.edu}{\nolinkurl{username@pitt.edu}}). This e-mail address may be used by the University for official communication. Students are expected to read e-mail sent to this account on a regular basis. Failure to read and react to University communications in a timely manner does not absolve the student from knowing and complying with the content of the communications. The University provides an e-mail forwarding service that allows students to read their e-mail via other service providers. Students that choose to forward their e-mail from their pitt.edu address to another address do so at their own risk. If e-mail is lost as a result of forwarding, it does not absolve the student from responding to official communications sent to their University e-mail address. To forward e-mail sent to your University account, go to \url{http://accounts.pitt.edu}, log into your account, click on Edit Forwarding Addresses, and follow the instructions on the page. Be sure to log out of your account when you have finished. (For the full E-mail Communication Policy, go to bc.pitt.edu/policies/policy/09/09-10-01.html.)
+
+\hypertarget{disability-resources-and-services-drs}{%
+\chapter{Disability Resources and Services (DRS)}\label{disability-resources-and-services-drs}}
+
+\textbf{Disabilities Resources \& Services:}
+216 William Pitt Union
+(412) 648-7890
+(412) 383-7355 (TYY)
+\href{https://www.diversity.pitt.edu/disability-access/disability-resources-and-services}{Website}: \url{https://www.diversity.pitt.edu/disability-access/disability-resources-and-services}
+
+If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and Disabilities Resources and Services. DRS will verify your disability and determine reasonable accommodations.
+
+\hypertarget{extra-credit-tldr-there-is-none}{%
+\chapter{Extra credit (tl;dr: there is none)}\label{extra-credit-tldr-there-is-none}}
+
+No extra credit will be offered in this course.
+
+``Buffer points'' on the exams and exam rematches are NOT extra credit.
+
+\hypertarget{faq}{%
+\chapter{FAQ}\label{faq}}
+
+Welcome to Foundation 2 with Dr.~Brouwer! This FAQ supplements the syllabus and answers frequently asked questions. Let me know ( \href{mailto:nlb24@pitt.edu}{\nolinkurl{nlb24@pitt.edu}} ) if you have any additional questions.
+
+\hypertarget{frequently-asked-questions}{%
+\section{Frequently asked questions}\label{frequently-asked-questions}}
+
+\hypertarget{are-we-starting-online}{%
+\subsection{``Are we starting online?''}\label{are-we-starting-online}}
+
+Yes We will begin meeting online for the first 2.5 weeks for both lecture and recitation. A Zoom link will be sent prior to the first day of class and will also appear on the front page of the course website.
+
+\hypertarget{what-textbook-will-we-use}{%
+\subsection{``What textbook will we use?''}\label{what-textbook-will-we-use}}
+
+Our book for Foundations 2 is the 12th edition of Life: The Science of Biology by Hillis et al.~(2020).
+
+Everyone should have received an email recently from the bookstore discussing the Inclusive Access program using Redshelf.
+
+If you click on the Macmillan Learning tab on the Canvas sidebar for this course and select ``E-Book'' you should be taken to the online version of the book.
+
+You have been charted a small fee for online access; if you do not need it you can opt out. Check your email for instructions.
+
+See the Readings - Assigned textbook materials for more information.
+
+\hypertarget{will-we-use-achieve}{%
+\subsection{``Will we use Achieve?''}\label{will-we-use-achieve}}
+
+No, we will not use Achieve for gradeds work. It will be activated so you can use it for practice questions. See the Achieve section of the syllabus for details.
+
+\hypertarget{will-we-use-launchpad}{%
+\subsection{``Will we use LaunchPad''}\label{will-we-use-launchpad}}
+
+No, we will not use LaunchPad.
+
+\hypertarget{will-any-content-be-asynchronous}{%
+\subsection{``Will any content be asynchronous?''}\label{will-any-content-be-asynchronous}}
+
+No, no content will be asynchronous. This is an in-person course that is beginning online the first 2.5 weeks. After that it will be fully in person. Videos will be provided for review.
+
+\hypertarget{what-if-i-get-sick-this-semester}{%
+\subsection{``What if I get sick this semester?''}\label{what-if-i-get-sick-this-semester}}
+
+In general, for my courses I use a ``drop your lowest scores'' policy where -- regardless of the reasons -- your lowest score on each major part of your (tests, assignments, etc) gets dropped. This should accommodate an extended period of illness. See the full grade breakdown for details
+
+\hypertarget{what-if-you-get-sick-this-semester}{%
+\subsection{``What if YOU get sick this semester?''}\label{what-if-you-get-sick-this-semester}}
+
+All of my materials have been prepared far enough in advance that I will be able to keep the course running even if I get sick using videos. I'm fully vaccinated and boosted and not expecting any disruption to the course.
+
+\hypertarget{what-topics-will-we-be-covering}{%
+\subsection{``What topics will we be covering?''}\label{what-topics-will-we-be-covering}}
+
+The course covers molecular biology, genomics, evolution, and ecology. We'll start out with Chapters 13, 14, 15, 16, and Appendix B over the first several weeks.
+
+\hypertarget{im-not-arriving-until-after-the-1st-day-of-class---is-that-a-problem}{%
+\subsection{``I'm not arriving until after the 1st day of class - is that a problem?''}\label{im-not-arriving-until-after-the-1st-day-of-class---is-that-a-problem}}
+
+No problem at all. Everyone will be participating via zoom the first 2.5 weeks.
+
+\hypertarget{i-joined-the-class-late-what-can-i-do}{%
+\subsection{``I joined the class late, what can I do?''}\label{i-joined-the-class-late-what-can-i-do}}
+
+All assignments associated with Unit 1 will remain open for an extended period of time to accommodate people who join the class late.
+
+\hypertarget{not-so-frequently-asked-question}{%
+\section{Not so Frequently Asked Question}\label{not-so-frequently-asked-question}}
+
+\hypertarget{i-want-to-read-ahead-where-should-i-start}{%
+\subsection{``I want to read ahead, where should I start''}\label{i-want-to-read-ahead-where-should-i-start}}
+
+Below are the chapters and key sections covered in the first unit of the course. They are in the approximate order we'll cover them.
+
+\textbf{Readings from textbook:}
+
+\begin{itemize}
+\tightlist
+\item
+  Appendix B: Making sense of data: A statistics Primer, Sections ``Step 3'' through ``Step 4.''
+\item
+  Chapter 20: Reconstructing and using phylogenies, Section 20.1
+\item
+  Chapter 13: DNA and its role in heredity - sections 13.2 to 13.5 (skip 13.1)
+\item
+  Chapter 14: From DNA to protein - section 14.2 to 14.6 (skip 14.1)
+\item
+  Chapter 15: Gene mutation and molecular medicine, section 15.1 (skip all other sections)
+\end{itemize}
+
+\textbf{Additional Readings:}
+
+\begin{itemize}
+\tightlist
+\item
+  How Histograms Work: \url{https://bit.ly/biohistograms}
+\item
+  How to Read \& Use a Boxplot: \url{https://bit.ly/bioboxplots}
+\end{itemize}
+
+\hypertarget{what-do-i-need-to-know-from-previous-biology-classes}{%
+\subsection{``What do I need to know from previous biology classes?''}\label{what-do-i-need-to-know-from-previous-biology-classes}}
+
+See the page ``Foundations 1 - things to know'' which lists chapters and focal ideas covered in Pitt's first semester of biology (Foundations 1) that are most relevant to Foundations 2.
+
+Depending on your background you may wish to glance over them.
+
+\hypertarget{general-education-requirement}{%
+\chapter{General Education Requirement}\label{general-education-requirement}}
+
+This course fulfills 1 Dietrich School of Arts and Sciences Natural Science General Education Requirement (GER) as described for the GERs starting Fall 2018 (term 2191). That GER reads as follows:
+
+\begin{quote}
+``Three Courses in the Natural Sciences: These will be courses that introduce students to scientific principles and concepts rather than offering a simple codification of facts in a discipline or a history of a discipline. The courses may be interdisciplinary, and no more than two courses may have the same primary departmental sponsor.''
+\end{quote}
+
+See \href{https://asundergrad.pitt.edu/academic-experience/general-education-requirements}{asundergrad.pitt.edu/academic-experience/general-education-requirements} for more details.
+
+\hypertarget{goals-of-foundations-2}{%
+\chapter{Goals of Foundations 2}\label{goals-of-foundations-2}}
+
+The goals of Foundations II is to expand your understanding of key biological concepts and build skills essential to your success as a practitioner and consumer of science.
+
+\textbf{There is a strong emphasis in this course on application} - there is MUCH more to this class than memorizing vocab!
+
+\hypertarget{concepts-from-nucleic-acids-to-the-biosphere}{%
+\section{Concepts: From Nucleic acids to the Biosphere}\label{concepts-from-nucleic-acids-to-the-biosphere}}
+
+Key biology concepts covered this semester will be
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  DNA structure \& function
+\item
+  Transcription \& translation
+\item
+  Genomics \& DNA cloning
+\item
+  \href{https://en.wikipedia.org/wiki/Phylogenetic_tree}{Phylogenetic trees}
+\item
+  Evolution \& speciation
+\item
+  Ecology
+\end{enumerate}
+
+Biology is the study of life in all its forms and at all scales, from the interactions of biological macromolecules like nucleic acids to the functioning of the entire biosphere. Foundations II will provide you with a grounding in the major biological concepts related to the molecular basis of genetics, molecular biology, the evolution of life, and ecological interactions.
+
+\hypertarget{molecular-genetics}{%
+\subsection{Molecular genetics}\label{molecular-genetics}}
+
+We will begin the semester with an introduction to the molecular basis of genetics and heredity, focusing on how the information in DNA is stored, copied, transmitted, and used by organisms through the processes of transcription and translation.
+
+\hypertarget{gene-regulation-genomics}{%
+\subsection{Gene regulation \& genomics}\label{gene-regulation-genomics}}
+
+During the first units we will think mostly in terms of single genes. Later we will widen our scope to include multiple genes in order to examine gene regulation, genomics and \href{https://en.wikipedia.org/wiki/Epigenetics}{epigenetics} We'll also discuss how molecular biologists conduct experiments and the tools they use to manipulate genes and proteins.
+
+\hypertarget{population-biology-natural-selection-speciation-phylogenetics-ecology}{%
+\subsection{Population biology: natural selection, speciation, phylogenetics \& ecology}\label{population-biology-natural-selection-speciation-phylogenetics-ecology}}
+
+Throughout the course we will emphasize the evolutionary background of the topics we discuss. During the second half of the course we will specifically focus on the biology of populations and the dynamics of natural selection, the origin of species (speciation), the evolutionary relationships among species (\href{https://en.wikipedia.org/wiki/Phylogenetics}{phylogenetics}), and the process of population growth and regulation which are key to understanding evolution (population ecology).
+
+\hypertarget{species-interactions-community-ecology}{%
+\subsection{Species interactions \& Community ecology}\label{species-interactions-community-ecology}}
+
+We will finish the semester learning about species interactions, such as predators versus their prey, and the structure of communities made up of multiple interacting species.
+
+\hypertarget{skills-doing-communicating-science}{%
+\section{Skills: Doing \& Communicating Science}\label{skills-doing-communicating-science}}
+
+Foundations 2 will develop your skills as a critical consumer and practitioner of science. By the end of the course you should not only understand the conceptual material presented in the book but also be able to critically approach new scientific material such as scientific talks and journal articles. We will practice assessing scientific results, understanding figures, and presenting and analyzing data. Throughout the course we will therefore discuss
+
+\begin{itemize}
+\tightlist
+\item
+  How science is conducted \& communicated
+\item
+  Application of the scientific method
+\item
+  How experiments \& observational studies are conducted
+\item
+  Understanding scientific figures
+\item
+  Data analysis \& Statistics
+\item
+  Scientific inference
+\end{itemize}
+
+\hypertarget{grades---grading-scale}{%
+\chapter{Grades - grading scale}\label{grades---grading-scale}}
+
+Raw percentage grades will be converted to letter grades at the end of the semester using the scale shown below. This will only be done after the final and the implementation of all dropped grades.
+
+Note: Students planning to major in Biological Sciences must pass this course with a \textbf{C} (not C- !) or better.
+
+\textbf{Rounding}: Rounding is not done until final grades are computed and is done by computer to 1 decimal place. Final letter grades are assigned after rounding and is done automatically by a computer including the decimal value. For example, a score of 91.99\% rounds to 92.0\% and is an A, but a score of 91.94\% rounds to 91.9\% and is an A-.
+
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.17}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.26}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.11}}
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.11}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\centering
+~
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Final Percentage
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Grade
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+GPA
+\end{minipage} \\
+\midrule
+\endhead
+\textbf{row01} & 98.0--100\% & A+ & 4 \\
+\textbf{row02} & 92.0--97.9 & A & 4 \\
+\textbf{row03} & 90.0--91.9 & A- & 3.75 \\
+\textbf{row04} & 88.0--89.9 & B+ & 3.25 \\
+\textbf{row05} & 82.0--87.9 & B & 3 \\
+\textbf{row06} & 80.0--81.9 & B- & 2.75 \\
+\textbf{row07} & 78.0--79.9 & C+ & 2.25 \\
+\textbf{row08} & 72.0--77.9 & C & 2 \\
+\textbf{row09} & 70.0--71.9 & C- & 1.75 \\
+\textbf{row10} & 68.0--69.9 & D+ & 1.25 \\
+\textbf{row11} & 62.0--67.9 & D & 1 \\
+\textbf{row12} & 60.0--61.9 & D- & 0.75 \\
+\textbf{row13} & 59.0 and below & F & 0 \\
+\bottomrule
+\end{longtable}
+
+\hypertarget{readings-additional-readings}{%
+\chapter{Readings: Additional readings}\label{readings-additional-readings}}
+
+Many weeks there will be a short to medium-length additional reading to supplement the book.
+
+Links and/or PDFs for these materials will be provided. These may be associated with the upcoming recitation or lecture, and some will be from the primary scientific literature.
+
+I have carefully selected and edited these readings and I highly recommend that you read them AND refer back to them when reviewing for tests.
+
+Optional review readings may also be posted prior to tests. These will be clearly marked as optional.
+
+\hypertarget{readings---assigned-textbook-materials}{%
+\chapter{Readings - Assigned textbook materials}\label{readings---assigned-textbook-materials}}
+
+This course will be structured around focal chapters and/or sections in Life: The Science of Biology, 12th edition by Hillis et al (2020).
+
+\hypertarget{readme-assigned-readings}{%
+\section{README: Assigned readings}\label{readme-assigned-readings}}
+
+For a given lecture I will specify focal sections of the book, which importantly \textbf{may come from more than one chapter.} I will be very specific about what to read.
+
+There are many sections, figures, and tables I will tell you to skip (hooray!).
+
+After the first week, information on readings will be announced on Friday.
+
+I highly recommend reading the assigned sections \emph{before} class; however, I don't recommend taking extensive notes or outlining.
+
+Read the assigned sections to prime your brain for lecture, then refer back to it when reviewing your notes.
+
+To facilitate review, most lectures will indicate which sections of the book are most related.
+
+\hypertarget{digital-access-to-hillis-et-al-2020}{%
+\section{Digital access to Hillis et al (2020)}\label{digital-access-to-hillis-et-al-2020}}
+
+You will receive information about \emph{online} access to the 12th edition of the textbook. You can opt out of online access if you
+
+\hypertarget{acheive-1}{%
+\subsection{Acheive}\label{acheive-1}}
+
+The publisher of the textbook has an interactive website of review materials called Achieve. I will make this materials available but nothing from this site will be assigned.
+
+\hypertarget{hardcopy-of-book}{%
+\section{Hardcopy of book}\label{hardcopy-of-book}}
+
+You can obtain a physical copy of the book if you want. The 12th edition of the book -- which is green and has a bee on the cover -- is very similar to the 11th edition of the book by Sadava et al.~(2016), which is orange has a flock of birds on the cover.
+
+I will indicate any important differences between the 12th and 11th edition of the books.
+
+\hypertarget{rounding-numeric}{%
+\chapter{Rounding numeric}\label{rounding-numeric}}
+
+\hypertarget{entering-numeric-questions-on-tests-and-assignments}{%
+\section{Entering numeric questions on tests (and assignments)}\label{entering-numeric-questions-on-tests-and-assignments}}
+
+Test questions and assignments will frequently require numeric answers.
+
+The keys for these questions will have a buffer to account for reasonable variation in rounding.
+
+For example, if the answer is 50\%, grading will be set so that answers from 49\% to 51\% will be accepted.
+
+\hypertarget{rounding-like-a-biologist}{%
+\section{Rounding like a biologist}\label{rounding-like-a-biologist}}
+
+Because chemistry and physics are super precise sciences, chemists and physics profs get really hung up on rounding; biologists generally don't unless its really necessary.
+
+For rounding and reporting answers I recommend these rule of thumb:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Your final answer doesn't usually need to be than 1 or 2 digits more precise than your data. So if I give you frequencies of 0.4 and 0.6 for a Hardy-Weinberg problem, your final answer can be rounded to the hundredths or thousandths (e.g.~0.411, 0.62).
+\item
+  If the final answer is \textgreater0, round to 2 digits past the decimal place, e.g.~round 1.519 to 1.52, and leave 1.49 as 1.49 (don't up round to 1.5).
+\item
+  If the final answer is \textless0, round to 2 digits past the zeros, e.g., round 0.00148 to 0.0015 and leave 0.0014 as 0.0014 (don't round to 0.001).
+\item
+  To prevent rounding errors retain 2 more digits than needed while doing your work.
+\end{enumerate}
+
+These aren't hard and fast rules; luckily I don't think I've ever had a problem on a numeric question that ultimately was the result of variation in approaches to rounding.
+
+When making the key to a test I will usually try to work out the math with more than one approach to rounding to account for potential variation.
+
+For example, I'll first do the calculations in a spreadsheet and do the rounding at the end.
+
+I'll then redo the math rounding any intermediary steps. I'll then set a buffer that accommodates reasonable variation in the answer.
+
+I also go back and specifically re-check numeric questions after the test.
+
+\hypertarget{study-guides-for-exams}{%
+\chapter{Study guides for exams}\label{study-guides-for-exams}}
+
+When preparing for the exams the best guides for studying are:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Lecture slides
+\item
+  Your notes
+\item
+  Recitation homework assignments
+\item
+  Other homework assignments and quizzes
+\item
+  Vocab lists associated with slides, readings, and assignments
+\end{enumerate}
+
+\textbf{Exam studies guides} in the more traditional sense will be made available before each test -- \textbf{BUT these study guides are in no way complete, comprehensive, or representative}. They are most useful to look over AFTER you have thoroughly reviewed all your other class materials.
+
+If you only look at the study guides you will likely miss a lot of important material.
+
+\hypertarget{tests---practice-test}{%
+\chapter{Tests - Practice test}\label{tests---practice-test}}
+
+The recitation prior to an exam will be used to take prepare for the exam. A pre-recitation take-home practice test will be given as an assignment, a short practice test will be taken and discussed during recitation, and a follow-up post-recitation practice test will be assigned.
+
+All of this will be required assignments. These will be based on test questions from previous years and will be administered using Canvas.
+
+\hypertarget{tophat}{%
+\chapter{TopHat}\label{tophat}}
+
+\protect\hyperlink{tophat}{TopHat}www.tophat.com(www.tophat.com) will be used for in-class activities.
+
+Join Code: 982099
+
+\hypertarget{updates-to-schedule-schedule-syllabus}{%
+\chapter{Updates to schedule schedule \& syllabus}\label{updates-to-schedule-schedule-syllabus}}
+
+I reserve the right to update the syllabus, schedule, point allocation and all other components of the course as necessary.
+
+If changes occur after the first day of class, they will be clearly communicated in class and via email/Canvas message, and a revised syllabus and schedule distributed.
+
+After reading the syllabus and completing the ``Syllabus treasure hunt'' assignment (which will be posted on the first day of class) feel free to contact me with any questions about course policies.
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}
