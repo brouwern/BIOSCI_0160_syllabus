@@ -1,0 +1,9 @@
+# Disability Resources and Services (DRS)
+
+**Disabilities Resources & Services:**
+216 William Pitt Union
+(412) 648-7890
+(412) 383-7355 (TYY)
+[Website](https://www.diversity.pitt.edu/disability-access/disability-resources-and-services): https://www.diversity.pitt.edu/disability-access/disability-resources-and-services
+
+If you have a disability for which you are or may be requesting an accommodation, you are encouraged to contact both your instructor and Disabilities Resources and Services. DRS will verify your disability and determine reasonable accommodations.

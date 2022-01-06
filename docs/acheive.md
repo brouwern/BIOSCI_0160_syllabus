@@ -1,0 +1,9 @@
+# Acheive
+
+If you are accessing the textbook online through the information sent to you by the bookstore or purchased a new copy of the textbook you will have access to the publisher's online materials, called Achieve.  (Note that there is an older service called LaunchPad which we no longer use).  
+
+I do NOT assign materials from Achieve but will make them available for relevant chapters. You may find them useful, but I cannot guarantee their relevance to the course and will not answer questions related to them. 
+
+If you use Achieve I recommend talking to the UTAs about which questions are most similar to what will appear on the tests.   
+
+Achieve can be accessed from within Canvas using the "Macmillan Learning" link on the menu to the left.

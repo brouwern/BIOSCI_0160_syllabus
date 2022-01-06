@@ -1,0 +1,37 @@
+# Course structure
+
+The following sections outline key elements of the course. 
+
+Further details will be provided later in the syllabus. 
+
+## Weekly Course Components
+
+Foundations of Biology 2 is an in-person course.  There are 4 main forms of delivering material and interaction:
+
+* **Lectures**: In-person, Tuesdays & Thursdays 
+* **Recitation**: Fridays.
+* **Office Hours** with Dr. Brouwer throughout the week.
+* **Undergraduate Teaching Assistant (UTA) office hours** throughout the week.
+ 
+
+## Assessments
+
+The primary form of assessment in the course will be 3 "mini-tests", each covering ~8 lectures of material
+Approximately 80% of your grade will be based on these tests.
+
+Other primary forms of assessment and practice include
+
+* **Assignments** 
+* **Practice tests** taken during recitation
+* **Exam rematches** taken during recitation
+* Other recitation activities to build skill and comprehensions
+* Numerous short quizzes before and after lecture to build vocab and test comprehension
+ 
+
+As detailed elsewhere in the syllabus a portion of each of these individuals components of your grade will be dropped.
+
+Sometimes assignments or questions will be marked as being based partially or entirely scored for participation.  These assignments ARE required - "for participation" does NOT mean optional. 
+
+Occasionally, fully optional assignments worth 0 points will be released - these will be clearly marked as worth 0 points and for practice only.
+
+The syllabus will take you step-by-step through all the policies related to these elements of the course.
