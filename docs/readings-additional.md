@@ -1,4 +1,4 @@
-# Readings: Additional readings
+# Readings: Additional readings {#additional-readings}
 
 Many weeks there will be a short to medium-length additional reading to supplement the book.  
 

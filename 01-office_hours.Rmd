@@ -1,12 +1,10 @@
-# Office Hours 
+# Office Hours {#officehours}
 
 ## Dr. Brouwer office hours
 
-Office hours will be held Mondays 12:00-1:00 PM and Thursdays from 9:30 to 10:30 PM.  (These are subject to modification once the semester begins)
+Office hours will be held each week starting the second week of class.  See the Canvas homepage for times. (These are subject to modification once the semester begins)
 
-<!-- Zoom? In person?  -->
-
-A Zoom link will be sent to the class and anyone who has a question or wants to hear the discussion can join. 
+Office hours are not the day after and exam or finals week.
 
 Office hours will not be recorded.
 

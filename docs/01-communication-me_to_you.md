@@ -1,4 +1,4 @@
-#  Communication - from me to you
+#  Communication - from me to you {#communication-me2u}
 
 **Messages via Canvas will be used to regularly communicate key information for the course.**
 

@@ -1,0 +1,23 @@
+---
+title: "microprotein ADRB2"
+author: "Nathan Brouwer"
+date: "1/7/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 
+
+ADRB2
+
+https://en.wikipedia.org/wiki/Beta-2_adrenergic_receptor
+Beta-2 adrenergic receptor
+
+β2-Adrenergic receptor	19	Inhibits translation of β2-Adrenergic receptor by binding to mRNA. The study suggests primary amino acid sequence is necessary for inhibitory effect[45].
+
+MetArgLeuProGlyValArgSerArgProAlaGluProArgArgGlySerAlaAr
+
+The peptide product of a 5' leader cistron in the beta 2 adrenergic receptor mRNA inhibits receptor synthesis.

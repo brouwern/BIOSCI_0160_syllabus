@@ -1,4 +1,4 @@
-# Course communication - Canvas messages & Email
+# Course communication - You to me {#communication-u2me}
 
 I you can contact me via email at nlb24@pitt.edu or via Canvas.
 

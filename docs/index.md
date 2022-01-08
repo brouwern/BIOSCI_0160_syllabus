@@ -1,7 +1,7 @@
 --- 
 title: "Syllabus - Foundations of Biology 2 (BIOSCI 0160"
 author: "Nathan L Brouwer"
-date: "2022-01-06"
+date: "2022-01-08"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
