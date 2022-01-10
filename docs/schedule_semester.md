@@ -1,0 +1,4 @@
+# Semester schedule
+
+The semester schedule can be viewed on Google Drive [here](https://docs.google.com/spreadsheets/d/1gB98V5qCye0tm26qK9Lho6NRVmTnoJ4COymKpLRL4Uc/edit?usp=sharing):
+https://docs.google.com/spreadsheets/d/1gB98V5qCye0tm26qK9Lho6NRVmTnoJ4COymKpLRL4Uc/edit?usp=sharing

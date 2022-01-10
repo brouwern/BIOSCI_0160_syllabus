@@ -1,8 +1,8 @@
-# Course communication - You to me {#communication-u2me}
+# Communication - You to me {#communication-u2me}
 
-I you can contact me via email at nlb24@pitt.edu or via Canvas.
+I you can contact me via email at **nlb24@pitt.edu** or via Canvas.
 
-Please put "Foundations 2:..." as the subject, with an informative bit of information as the "...". e.g. "Foundations 2: Canvas assignment not allowing multiple attempts". There's no need to provide your PeopleSoft number.
+> Please put "**Foundations 2:...**" as the subject, with an informative bit of information as the "...". e.g. "Foundations 2: Canvas assignment not allowing multiple attempts". There's no need to provide your PeopleSoft number.
 
 I try to answer all emails received on _weekdays_ within 24-36 hrs.  Emails received on the weekend will be answered Monday. 
 

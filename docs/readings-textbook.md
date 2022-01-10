@@ -10,9 +10,7 @@ There are many sections, figures, and tables I will tell you to skip (hooray!).
 
 After the first week, information on readings will be announced on Friday.
 
-I highly recommend reading the assigned sections _before_ class;  however, I don't recommend taking  extensive notes or outlining. 
-
-Read the assigned sections to prime your brain for lecture, then refer back to it when reviewing your notes. 
+> **I highly recommend reading the assigned sections _before_ class;  however, I DO NOT recommend taking extensive notes or outlining chapters.**  This applies to the first time you read it or as a study tactic.  Read the assigned sections to prime your brain for lecture, then refer back to it when reviewing your notes. 
 
 To facilitate review, most lectures will indicate which sections of the book are most related. 
 

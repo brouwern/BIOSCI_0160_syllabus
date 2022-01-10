@@ -1,9 +1,10 @@
 # Course Units
 
-The course is divided into 3 Units  Each part will have 2 Parts
-There will be 1 exam for each Unit of the course.
+The course is divided into **3 Units.**  Each Unit will be split into 2 Parts.
 
-The first 3 part will be focused on
+There will be 1 exam for each of the 3 Units of the course.
+
+The first 3 Units will be focused on
 
 * molecular genetics
 * mutation
@@ -12,11 +13,11 @@ The first 3 part will be focused on
 * biotechnology / lab techniques
 
 
-The last 3 units will be focused on
+The last 3 Units will be focused on
 
 * phylogenetics
 * evolution
 * ecology
 
 
-Each unit will have approximately 8 lectures.  
+Each Unit will have approximately 8 lectures.  

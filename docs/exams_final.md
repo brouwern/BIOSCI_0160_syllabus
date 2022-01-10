@@ -1,0 +1,77 @@
+# Final Exam Policies
+
+The final exam will ...
+
+1. Take place during finals week *on the day scheduled by the University*
+1. Be **in-person**
+1. Be **cumulative**
+1. Follow the general format of the mini-tests, including having buffer points 
+1. Potentially replace your second lowest score
+
+## Final exam format 
+
+The final exam is split into *3** smaller exams.  Each of those 3 exams totals up to your final grade on the final.  
+
+## The final exam can improve second-lowest exam score!
+
+I will compare your performance on each unit of the final to your performance on the previous unit exams, and determine which of the unit exams is your second-lowest score (the lowest will be dropped).  
+
+If your score on the appropriate section of the final is higher than your second lowest score, your score on that part of the final will replace your second lowest score.
+
+Example:
+
+Say your scores on the unit exams are
+
+1. 0%, because you missed the exam because you Omicron
+1. 72%
+1. 80%
+
+The lowest score (0%) will be dropped automatically by Canvas prior to taking the final.  Your exam grade on going into the final will therefore be based on the second and third exams: (72+80)/2 = 76%.
+
+Then say your scores on the 3 sections of the final are
+
+1. 85%
+1. 75%
+1. 80%
+
+Your overall score on the final will be (85+75+80)/2 = 80%.
+
+Your *second* lowest unit exam score was 72% (unit 2). Your score on the second part of the final (75%) is higher  Congratulations!  So your score the unit exams will improve to (75+80)/2 = 77.5.  
+
+The final exam is weighted the same as the unit exams, so your overall score for exams plus the final will be: (75 + 80 + 80)/3 = 78.3%
+
+Unit exams plus the final are worth 80% of your grade.  Let's say you got 95% on all other assignments.  
+
+Your final score will be = (exams+final) x 0.80 + (everything else) x 0.20.  
+That is, (78.3 x 0.80) + (95 x 0.2) = 81.64%, which would be a B-.
+
+
+<!-- Yes, the final for this class is OPTIONAL - if you are happy with your test scores you will not have to take it. -->
+
+<!-- The final exam is NOT one of the 6 unit "mini-tests" and NOT one of the five of those tests that count towards you grade. -->
+
+**Note: **I do not hold office hours during finals week.
+
+Information about the final exam schedule for the University can be found here:
+
+https://www.registrar.pitt.edu/students/final-exams 
+
+
+<!-- ## Why take the final exam? -->
+
+<!-- As noted previously, your lowest mini-test score will be automatically dropped.  -->
+
+<!-- Your 2nd lowest test score can be replaced by your final exam, *if* your final exam score is higher.  -->
+
+<!-- The final exam can therefore only benefit your score. -->
+
+<!-- Questions on the final exam will be of similar difficulty as the 6 regular mini-tests. -->
+
+<!-- I can only provide estimated grades prior to the exam.  -->
+
+
+
+<!-- What if I have more than one final exam on the same day? -->
+<!-- If you have multiple finals scheduled for the same day see here: -->
+
+<!-- https://www.registrar.pitt.edu/sites/default/files/pdf/final_guideline.pdf -->

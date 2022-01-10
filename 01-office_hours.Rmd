@@ -4,9 +4,9 @@
 
 Office hours will be held each week starting the second week of class.  See the Canvas homepage for times. (These are subject to modification once the semester begins)
 
-Office hours are not the day after and exam or finals week.
+**Office hours are NOT the day after an exam, or finals week.**
 
-Office hours will not be recorded.
+Office hours may be available via Zoom but will not be recorded.  
 
 
 **Some guidelines for office hours:**

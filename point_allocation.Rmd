@@ -1,0 +1,15 @@
+# Point allocation & Weighting
+
+The course contains 3 units, and each unit has a test. 
+
+Your lowest scores will be automatically dropped as detailed elsewhere in the syllabus.  (This will not be dropped until final grades are calculated do your grade reported by Canvas will be an under estimate with regards to tests!)
+
+The exams and the final contribute ~80% of your final grade.  Each will therefore be worth about 26.7% of your grade. (~26.7*3 = ~80%)
+
+Recitation homework, test revisions, other homework assignments, and quizzes will contribute ~20%.  
+
+The full point allocation is shown below.  This is subject to change as necessary if, for example, the number of assignments changes.
+
+A spreadsheet version of this table is available [here](https://docs.google.com/spreadsheets/d/1gB98V5qCye0tm26qK9Lho6NRVmTnoJ4COymKpLRL4Uc/edit#gid=2147169333).
+
+https://docs.google.com/spreadsheets/d/1gB98V5qCye0tm26qK9Lho6NRVmTnoJ4COymKpLRL4Uc/edit#gid=2147169333
