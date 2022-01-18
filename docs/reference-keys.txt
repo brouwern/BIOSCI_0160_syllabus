@@ -49,6 +49,15 @@ i-joined-the-class-late-what-can-i-do
 not-so-frequently-asked-question
 i-want-to-read-ahead-where-should-i-start
 what-do-i-need-to-know-from-previous-biology-classes
+f1
+chapter-1-studying-life
+chapter-2-small-molecules-and-the-chemistry-of-life
+chapter-3-porteins-carbohydrates-and-lipids
+chapter-4-nucleic-acids-and-the-origin-of-life
+chapter-5---cells-the-working-units-of-life
+chapter-8-energy-enzymes-and-metabolism
+chapter-11
+chapter-12
 general-education-requirement
 goals-of-foundations-2
 concepts-from-nucleic-acids-to-the-biosphere
