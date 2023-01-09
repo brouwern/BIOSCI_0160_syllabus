@@ -34,7 +34,7 @@ See the Readings - Assigned textbook materials for more information.
 
 ### “Will we use Achieve?”
 
-No, we will not use Achieve for gradeds work.  It will be activated so you can use it for practice questions.  See the Achieve section of the syllabus for details.
+No, we will not use Achieve for graded work.  It will be activated so you can use it for practice questions.  See the Achieve section of the syllabus for details.
  
 
 ### “Will we use LaunchPad”
@@ -65,9 +65,9 @@ All of my materials have been prepared far enough in advance that I will be able
 The course covers molecular biology, genomics, evolution, and ecology.  We'll start out with Chapters 13, 14, 15, 16, and Appendix B over the first several weeks.  
 
  
-### “I’m not arriving until after the 1st day of class - is that a problem?”
+<!-- ### “I’m not arriving until after the 1st day of class - is that a problem?” -->
 
-No problem at all.   Everyone will be participating via zoom the first 2.5 weeks.
+<!-- No problem at all.   Everyone will be participating via zoom the first 2.5 weeks. -->
 
 
 <!-- “I’m not in the USA, will this be a problem?” -->
@@ -77,7 +77,7 @@ No problem at all.   Everyone will be participating via zoom the first 2.5 weeks
 
 ### “I joined the class late, what can I do?”
 
-All assignments associated with  Unit 1 will remain open for an extended period of time to accommodate people who join the class late.
+All assignments associated with Unit 1 will re-opened to accommodate people who join the class late.
 
  
 <!-- ## “I am worried about internet access or running out of data.  What can I do?” -->
